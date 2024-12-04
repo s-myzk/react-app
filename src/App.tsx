@@ -125,34 +125,6 @@ function App() {
         )
       )}
 
-      {/* <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          handleSubmit();
-        }}
-      >
-      </form> */}
-      {/* タスク追加フォーム */}
-      {/* <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          handleSubmit();
-        }}
-      >
-        <input
-          type="text" 
-          value={text}
-          disabled={filter === 'checked' || filter === 'removed'}
-          onChange={(e) => handleChange(e)} 
-        />
-        <input 
-          type="submit" 
-          value="追加" 
-          disabled={filter === 'checked' || filter === 'removed'}
-          onSubmit={handleSubmit} 
-        />
-      </form> */}
-
       {/* タスク一覧 */}
       <ul>
         {filteredTodos.map((todo) => {
